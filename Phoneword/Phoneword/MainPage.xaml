@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Phoneword.MainPage">
+
+  <StackLayout>
+        <Label Text="Enter a Phoneword" FontSize="Large"/>
+        <Entry Text="1-855-XAMARIN" x:Name="phoneNumberText"/>
+        <Button Text="Translate" x:Name="translateButton" Clicked="OnTranslate"/>
+        <Button Text="Call" IsEnabled="False" x:Name="callButton" Clicked="OnCall"/>
+    </StackLayout> 
+
+</ContentPage>
